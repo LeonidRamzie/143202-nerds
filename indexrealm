@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset ="utf-8">
+	<title>Nerds</title>
+</head>
+<body>
+	<!--Раздел Header/Фото но вставленно-->
+<header class ="main-head">
+	<div>
+		<img src="" alt ="" width="140" height ="59">
+ <nav class="main-nav">
+ 	<ul>
+ 	<li><a href="">Студия</a></li>
+            <li><a href="">Клиенты</a></li>
+            <li><a href="">Магазин</a></li>
+            <li><a href="">Контакты</a></li>
+            <li><figure><img src="Basket" alt ="Корзина"></figure>корзина</li>
+    </ul>
+ </nav>
+</div>
+  <!---ТУТ ДОЛЖНА БЫТЬ РЕАЛИЗАЦИЯ СЛАЙДОВ-->
+  <div>
+    <img src ="nerds.png" class="main-logo" width="140" height ="59" alt ="nerds"><a href="index.html"></a>
+  </div>
+ <!---ОСНОВНОЙ БЛОК!!!->
