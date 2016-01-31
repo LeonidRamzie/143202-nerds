@@ -3,68 +3,74 @@
 <head>
 	<meta charset ="utf-8">
 	<title>Nerds</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="css/uni.css">
 </head>
 <body>
 	<!--Раздел Header/Фото но вставленно-->
-<header class ="main-head">
-	<div class ="head">
-		<img src="img/logo.gif" alt ="Nёrds" width="140" height ="58"><a href="index.html"></a>
- <nav class="main-nav">
- 	<ul>
- 	<li><a href="">Студия</a></li>
-            <li><a href="">Клиенты</a></li>
-            <li><a href="">Магазин</a></li>
-            <li><a href="">Контакты</a></li>
-            <li><figure><img src="img/bascket.gif" alt ="Корзина" width="15" height ="15"></figure>корзина</li>
-    </ul>
- </nav>
+<header>
+  <div class="main-head">	
+
+		<img src="img/logo.gif" alt ="Nёrds" width="140" height ="58"><a href="index.html" class="logo"></a>
+ <nav>
+ 	<ul class="main-nav">
+ 	  <li><a href="">Студия</a></li>
+    <li><a href="">Клиенты</a></li>
+    <li><a href="">Магазин</a></li>
+    <li><a href="">Контакты</a></li>
+    <li><figure><img src="img/bascket.gif" alt ="Корзина" width="15" height ="15"></figure>корзина</li>
+  </ul>
+</nav>
 </div>
 
   <!---ТУТ ДОЛЖНА БЫТЬ РЕАЛИЗАЦИЯ СЛАЙДОВ-->
   <div class="main-info">
-    <img src="img/slide.png" width="338" height ="231" alt ="slide">
-    </div>
-    <h1>Долго,дорого,скурпулезно.</h1>
-    <p>Математически вывереный дизайн для вашего сайта или приложения</p>
-    <button class="more">Узнать больше</button>
+    <img class="slide" src="img/slide.png" width="338" height ="231" alt ="slide">
+    <h1 class="info">Долго,дорого,скурпулезно.</h1>
+    <p class="info">Математически вывереный дизайн для вашего сайта или приложения</p>
+    <a href="" class="info">Узнать больше</a>
+
+  </div>
  </header>
 
  <!--ОСНОВНОЙ БЛОК-->
-
- <div class ="web">
-    <img src="img/web-site.png" width="240" height ="124" alt="j">
+<div class="todo">
+ <div class ="block web">
+    <img src="img/web-site.png" width="240" height ="124" alt="web-site">
     <h3>Вэб сайты</h3>
     <p>Мир никогда не будет прежним после того как увиди ваш сайт!</p>
-  <button class="Large-text">Заказать</button>
-  </div>
-  <div class ="app">
-    <img src="img/apps.png" width="240" height ="124" alt="o">
+    
+  <a href="" class="large-text button web">Заказать</a>
+ </div>
+  
+  <div class ="block app">
+    <img src="img/apps.png" width="240" height ="124" alt="apps">
     <h3>приложения</h3>
     <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-    <button class="Large-text">Заказать</button>
+    <a href="" class="large-text button app">Заказать</a>
   </div>
-  <div class ="present">
-    <img src="img/press.png" width="240" height ="124" alt ="">
+  <div class ="block present">
+    <img src="img/press.png" width="240" height ="124" alt ="press">
     <h3>презентации</h3>
     <p>Вы даже не подозреваете насколько вы изумительны!</p>
-    <button class="Large-text">Заказать</button>
+    <a href="" class="large-text button press">Заказать</a>
   </div>
+</div>
     <hr>
 
     <!--ABOUT-->
-
+<div class="about-top">
     <div class ="about-text">
-	<h2>Мы-Маленькая,но гордая дизайн-студия из Краснодара></h2>
+	<h2>Мы-Маленькая,но гордая дизайн-студия из Краснодара</h2>
 	<p>Исповедуем принципы минимализма и чистоты. Ставим математически</p>
 	</div>
-	<div class="logo">
-		<img src="img/logo.gif" width="188" height ="74" alt ="">
-		<p class ="logo">SINCE 2004</p>
+	<div class="since">
+		<img src="img/logo.gif" width="188" height ="74" alt ="Nёrds">
+		<span class ="logo">SINCE 2004</span>
 	</div>
-	<div>
+  <div class="wokrhow">
+	<div class="work">
 		<h3>Выполняем заказы на разработку:</h3>
-		<ul class= "work">
+		<ul>
                   <li>Вэб сайтов любой сложности</li>
                   <li>Мобильных приложений для ios и Android</li>
                   <li>Слайд шоу и видео для корпоративных презентаций</li>
@@ -79,3 +85,20 @@
 		</ul>
 	</div>
 	<hr>
+<!--FRIENDS-->
+<div class="friends">
+<div class="gluckhanko"><img src="img/gluckhanko.png" width="198" height ="97" alt="gluckhanko"></div>
+<div class="html"><img src="img/html.png" alt ="htmlacademy" width="199" height ="68"></div>
+<div class="borodinsky"><img src="img/borodinsky.png" alt ="borodinsky" width="368" height ="160"></div></div>
+<!--MAP Вопросы по реализации-->
+<img src="img/contacts.png" width="1200" height ="400" alt ="contacts">
+<!--Social-->
+<div class="social">
+	<img src="img/vk.png" width="64" height ="64" alt ="vk"><a href="vk.com" ></a>
+	<img src="img/fb.png" width="64" height ="64" alt ="fb"><a href="fb.com" ></a>
+	<img src="img/insta.png" width="64" height ="64" alt ="instagram"><a href="instagram.com" ></a>
+</div>
+<div class="sale">
+	<h2>Давайте дружить,это выгодно</h2>
+	<p>скидка 10% для друзей из социальных сетей</p>
+	</div>

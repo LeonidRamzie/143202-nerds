@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset ="utf-8">
+	<title>Nerds</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<!--Раздел Header/Фото но вставленно-->
+<header class ="main-head">
+	<div class ="head">
+		<img src="img/logo.gif" alt ="Nёrds" width="140" height ="58"><a href="index.html"></a>
+ <nav>
+ 	<ul>
+ 	  <li><a href="" class="main-nav">Студия</a></li>
+    <li><a href="">Клиенты</a></li>
+    <li><a href="">Магазин</a></li>
+    <li><a href="">Контакты</a></li>
+    <li><figure><img src="img/bascket.gif" alt ="Корзина" width="15" height ="15"></figure>корзина</li>
+  </ul>
+</nav>
+</div>
+<h1 class="large-text">Добро пожаловать в магазин готовых макетов</h1>
+</header>
+<!--ОСНОВНОЙ БЛОК-->
+
+<div class="range-filter">
+            <div class="range-controls">
+                <div class="scale"><div class="bar"></div></div>
+                <div class="toggle min-toggle"></div>
+                <div class="toggle max-toggle"></div>
+            </div>
+            <div class="price-controls">
+                от <input class="min-price" type="text" value="5 000">
+                до <input class="max-price" type="text" value="15 000">
+            </div>
+        </div>
+     <div>
+     	<span class="net">Сетка</span>
+        <p><input name="" type="radio" value=""> Адаптивная</p>
+        <p><input name="" type="radio" value=""> Фиксированая </p>
+        <p><input name="" type="radio" value="" checked> Резиновая</p>
+    </div>
+
+<div>
+   <span class="quality">Особености</span>
+   <p><input type="checkbox" name="slider" value="a1" checked>Слайдер<Br>
+   <input type="checkbox" name="advantages" value="a2">Блок приемуществ<Br>
+   <input type="checkbox" name="news" value="a3" checked>Новости<Br> 
+   <input type="checkbox" name="gallery" value="a4">Галерея<Br> 
+   <input type="checkbox" name="basket" value="a5"Корзина</p>
+   
+</div>
+<div class="galery">
+  <span>Сортировать по:</span>
+  <ul class="sort">
+  	<li>По цене</li>
+  	<li>По типу</li>
+  	<li>По функционалу</li>
+  </ul>
+  <div class="aviator">
+  	<img src="" alt="">
+  </div>
+  <div class="sunset">
+  	<img src="" alt="">
+  </div>
+  <div class="forte">
+  	<img src="" alt="">
+  </div>
+  <div class="moretn">
+  	<img src="" alt="">
+  </div>
+  <div class="avenue">
+  	<img src="" alt="">
+  </div>
+  <div class="dovetail">
+  	<img src="" alt="">
+  </div>
+
+	</div
